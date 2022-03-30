@@ -835,6 +835,7 @@ function clearCheckedItems() {
     userInventoryList.splice(itemIndex, 1);
   });
   selectedList = [];
+  sortCategories();
 }
 
 const deleteBtn = document.querySelector(".button__delete");
