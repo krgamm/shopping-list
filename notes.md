@@ -1,5 +1,7 @@
 # Functional Requirements
 
+\*\* Not much to this other than a place for me to brain dump :)
+
 ## Needs
 
 - "library" object that is used to store and compare items
