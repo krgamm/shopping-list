@@ -5,10 +5,6 @@
   "keywords": [],
   "author": "Kevin Gammenthaler",
   "license": "ISC",
-  "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html"
-  },
   "dependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
