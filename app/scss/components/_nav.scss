@@ -1,0 +1,13 @@
+@use "../util" as *;
+
+nav {
+  display: flex;
+  padding: 1em 0;
+  justify-content: center;
+  margin: rem(24) auto;
+  .divider {
+    width: 2px;
+    background-color: var(--green);
+    margin: 0 rem(12);
+  }
+}

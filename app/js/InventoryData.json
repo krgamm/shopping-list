@@ -1,0 +1,656 @@
+[
+  {
+    "id": 1,
+    "Item": "Bagels",
+    "category": "Grains",
+    "checked": 0
+  },
+  {
+    "id": 2,
+    "Item": "Bread",
+    "category": "Grains",
+    "checked": 0
+  },
+  {
+    "id": 3,
+    "Item": "Bread rolls",
+    "category": "Grains",
+    "checked": 0
+  },
+  {
+    "id": 4,
+    "Item": "Buns",
+    "category": "Grains",
+    "checked": 0
+  },
+  {
+    "id": 5,
+    "Item": "Doughnuts",
+    "category": "Grains",
+    "checked": 0
+  },
+  {
+    "id": 6,
+    "Item": "Tortilla wraps",
+    "category": "Grains",
+    "checked": 0
+  },
+  {
+    "id": 7,
+    "Item": "Cereal",
+    "category": "Grains",
+    "checked": 1
+  },
+  {
+    "id": 8,
+    "Item": "Pasta",
+    "category": "Grains",
+    "checked": 0
+  },
+  {
+    "id": 9,
+    "Item": "Rice",
+    "category": "Grains",
+    "checked": 0
+  },
+  {
+    "id": 10,
+    "Item": "Apples",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 11,
+    "Item": "Apricots",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 12,
+    "Item": "Avocados",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 13,
+    "Item": "Bananas",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 14,
+    "Item": "Blackberries",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 15,
+    "Item": "Cherries",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 16,
+    "Item": "Grapes",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 17,
+    "Item": "Grapefruit",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 18,
+    "Item": "Kiwi",
+    "category": "Fruit",
+    "checked": 1
+  },
+  {
+    "id": 19,
+    "Item": "Lemons",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 20,
+    "Item": "Limes",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 21,
+    "Item": "Mangos",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 22,
+    "Item": "Oranges",
+    "category": "Fruit",
+    "checked": 1
+  },
+  {
+    "id": 23,
+    "Item": "Peaches",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 24,
+    "Item": "Pears",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 25,
+    "Item": "Plums",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 26,
+    "Item": "Pineapples",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 27,
+    "Item": "Raspberries",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 28,
+    "Item": "Strawberries",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 29,
+    "Item": "Watermelons",
+    "category": "Fruit",
+    "checked": 0
+  },
+  {
+    "id": 30,
+    "Item": "Bacon",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 31,
+    "Item": "Beef",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 32,
+    "Item": "Chicken",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 33,
+    "Item": "Duck",
+    "category": "Meat",
+    "checked": 1
+  },
+  {
+    "id": 34,
+    "Item": "Fish",
+    "category": "Meat",
+    "checked": 1
+  },
+  {
+    "id": 35,
+    "Item": "Goose",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 36,
+    "Item": "Ham",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 37,
+    "Item": "Lamb",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 38,
+    "Item": "Oysters",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 39,
+    "Item": "Pork",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 40,
+    "Item": "Turkey",
+    "category": "Meat",
+    "checked": 0
+  },
+  {
+    "id": 41,
+    "Item": "Crisps",
+    "category": "Snacks",
+    "checked": 0
+  },
+  {
+    "id": 42,
+    "Item": "Dried fruit",
+    "category": "Snacks",
+    "checked": 0
+  },
+  {
+    "id": 43,
+    "Item": "Gum",
+    "category": "Snacks",
+    "checked": 0
+  },
+  {
+    "id": 44,
+    "Item": "Nuts",
+    "category": "Snacks",
+    "checked": 0
+  },
+  {
+    "id": 45,
+    "Item": "Salsa",
+    "category": "Snacks",
+    "checked": 0
+  },
+  {
+    "id": 46,
+    "Item": "Butter",
+    "category": "Dairy",
+    "checked": 0
+  },
+  {
+    "id": 47,
+    "Item": "Cottage cheese",
+    "category": "Dairy",
+    "checked": 0
+  },
+  {
+    "id": 48,
+    "Item": "Cheese",
+    "category": "Dairy",
+    "checked": 0
+  },
+  {
+    "id": 49,
+    "Item": "Milk",
+    "category": "Dairy",
+    "checked": 1
+  },
+  {
+    "id": 50,
+    "Item": "Yogurt",
+    "category": "Dairy",
+    "checked": 0
+  },
+  {
+    "id": 51,
+    "Item": "Aubergines",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 52,
+    "Item": "Beans",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 53,
+    "Item": "Beetroot",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 54,
+    "Item": "Broccoli",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 55,
+    "Item": "Brussel’s sprouts",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 56,
+    "Item": "Cabbage",
+    "category": "Vegetables",
+    "checked": 1
+  },
+  {
+    "id": 57,
+    "Item": "Carrots",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 58,
+    "Item": "Garlic",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 59,
+    "Item": "Ginger",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 60,
+    "Item": "Lettuce",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 61,
+    "Item": "Onions",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 62,
+    "Item": "Peppers",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 63,
+    "Item": "Potatoes",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 64,
+    "Item": "Radishes",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 65,
+    "Item": "Spinach",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 66,
+    "Item": "Sweetcorn",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 67,
+    "Item": "Tomatoes",
+    "category": "Vegetables",
+    "checked": 0
+  },
+  {
+    "id": 68,
+    "Item": "Biscuits",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 69,
+    "Item": "Brownies",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 70,
+    "Item": "Chocolate",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 71,
+    "Item": "Cake",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 72,
+    "Item": "Cookies",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 73,
+    "Item": "Honey",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 74,
+    "Item": "Jam",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 75,
+    "Item": "Maple syrup",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 76,
+    "Item": "Sweets",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 77,
+    "Item": "Waffles",
+    "category": "Sweets",
+    "checked": 0
+  },
+  {
+    "id": 78,
+    "Item": "Alcohol",
+    "category": "Drinks",
+    "checked": 0
+  },
+  {
+    "id": 79,
+    "Item": "Cocoa",
+    "category": "Drinks",
+    "checked": 0
+  },
+  {
+    "id": 80,
+    "Item": "Coffee",
+    "category": "Drinks",
+    "checked": 0
+  },
+  {
+    "id": 81,
+    "Item": "Juice",
+    "category": "Drinks",
+    "checked": 0
+  },
+  {
+    "id": 82,
+    "Item": "Soda drinks",
+    "category": "Drinks",
+    "checked": 0
+  },
+  {
+    "id": 83,
+    "Item": "Tea",
+    "category": "Drinks",
+    "checked": 0
+  },
+  {
+    "id": 84,
+    "Item": "Water",
+    "category": "Drinks",
+    "checked": 0
+  },
+  {
+    "id": 85,
+    "Item": "Basil",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 86,
+    "Item": "BBQ seasoning",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 87,
+    "Item": "Cinnamon",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 88,
+    "Item": "Cumin",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 89,
+    "Item": "Curry powder",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 90,
+    "Item": "Garlic powder",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 91,
+    "Item": "Oregano",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 92,
+    "Item": "Paprika",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 93,
+    "Item": "Parsley",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 94,
+    "Item": "Pepper",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 95,
+    "Item": "Poppy seed",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 96,
+    "Item": "Rosemary",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 97,
+    "Item": "Sage",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 98,
+    "Item": "Salt",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 99,
+    "Item": "Vanilla",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 100,
+    "Item": "Thyme",
+    "category": "Seasoning",
+    "checked": 0
+  },
+  {
+    "id": 101,
+    "Item": "Bath/shower gel",
+    "category": "Personal Care",
+    "checked": 0
+  },
+  {
+    "id": 102,
+    "Item": "Feminine products",
+    "category": "Personal Care",
+    "checked": 0
+  },
+  {
+    "id": 103,
+    "Item": "Lotion",
+    "category": "Personal Care",
+    "checked": 0
+  },
+  {
+    "id": 104,
+    "Item": "Shaving cream",
+    "category": "Personal Care",
+    "checked": 0
+  },
+  {
+    "id": 105,
+    "Item": "Shampoo",
+    "category": "Personal Care",
+    "checked": 0
+  },
+  {
+    "id": 106,
+    "Item": "Soap",
+    "category": "Personal Care",
+    "checked": 0
+  },
+  {
+    "id": 107,
+    "Item": "Sunscreen",
+    "category": "Personal Care",
+    "checked": 0
+  },
+  {
+    "id": 108,
+    "Item": "Tissues",
+    "category": "Personal Care",
+    "checked": 0
+  },
+  {
+    "id": 109,
+    "Item": "Toilet tissue",
+    "category": "Personal Care",
+    "checked": 0
+  }
+ ]

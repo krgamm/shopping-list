@@ -1,0 +1,91 @@
+@use "globals";
+@use "components";
+
+@use "../scss/util/" as *;
+
+#shopping-list {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral-200);
+  padding: rem(30);
+  border-radius: rem(20);
+  margin: rem(24) auto;
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.category-group {
+  margin-bottom: rem(28);
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    h2 {
+      margin: 0 0.5em;
+      margin-right: auto;
+    }
+    .checkmark-group {
+      position: relative;
+      height: 24px;
+      width: 24px;
+      //   &:hover {
+      //     .checkmark-icon {
+      //       display: block;
+      //       z-index: 1;
+      //     }
+      //   }
+      .checkmark-icon {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+      .circle {
+        height: 100%;
+        width: 100%;
+        border: solid 2px var(--dark-green);
+        border-radius: 100px;
+        position: absolute;
+      }
+    }
+  }
+  .item-active {
+    text-decoration: line-through;
+    color: var(--neutral-600);
+
+    .checkmark-icon {
+      display: block;
+    }
+    .circle {
+      display: none;
+    }
+  }
+}
+
+.category-group h2,
+.checkmark-group:hover {
+  cursor: pointer;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+
+  .close-icon {
+    height: 12px;
+    width: 12px;
+  }
+  &:hover {
+    background-color: var(--white);
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+}
+
+.divider-horizontal {
+  background-color: var(--light-green);
+  height: 2px;
+  margin-bottom: rem(10);
+}

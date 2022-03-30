@@ -1,0 +1,41 @@
+@use "../util" as *;
+@use "../globals/fonts" as *;
+
+.button {
+  font-weight: $fw-b;
+  letter-spacing: 1px;
+  width: fit-content;
+  text-transform: uppercase;
+  cursor: pointer;
+  &__add {
+    background-color: var(--green);
+    padding: rem(10) rem(24);
+    border-radius: 100px;
+    color: var(--white);
+    margin-left: auto;
+    &:hover {
+      background-color: var(--dark-green);
+    }
+  }
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+  .button {
+    padding: rem(16) rem(32);
+    border-radius: rem(8);
+    &__clear {
+      margin-right: 1em;
+      color: var(--white);
+      background-color: var(--green);
+      &:hover {
+        background-color: var(--dark-green);
+      }
+    }
+    &__delete:hover {
+      color: var(--red);
+    }
+  }
+}
