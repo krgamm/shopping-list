@@ -16,9 +16,7 @@ function assetTask() {
 }
 
 function htmlTask() {
-  return src("app/index.html", { sourcemaps: true }).pipe(
-    dest("dist", { sourcemaps: "." })
-  );
+  return src("app/index.html", { sourcemaps: true }).pipe(dest("dist"));
 }
 
 // Sass Task
