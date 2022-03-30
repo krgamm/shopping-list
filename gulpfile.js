@@ -8,16 +8,9 @@ const babel = require("gulp-babel");
 const terser = require("gulp-terser");
 const browsersync = require("browser-sync").create();
 
-// Gulp task to copy HTML files to output directory
-function htmlTask() {
-  return src("./index.html", { sourcemaps: true }).pipe(
-    dest("dist", { sourcemaps: "." })
-  );
-}
-
 // Sass Task
 function scssTask() {
-  return src("app/scss/style.scss", { sourcemaps: true })
+  return src("src/scss/style.scss", { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(dest("dist", { sourcemaps: "." }));
@@ -25,7 +18,7 @@ function scssTask() {
 
 // JavaScript Task
 function jsTask() {
-  return src("app/js/main.js", { sourcemaps: true })
+  return src("src/js/main.js", { sourcemaps: true })
     .pipe(babel({ presets: ["@babel/preset-env"] }))
     .pipe(terser())
     .pipe(dest("dist", { sourcemaps: "." }));
@@ -55,16 +48,10 @@ function browserSyncReload(cb) {
 function watchTask() {
   watch("*.html", browserSyncReload);
   watch(
-    ["app/scss/**/*.scss", "app/**/*.js"],
+    ["src/scss/**/*.scss", "src/**/*.js"],
     series(scssTask, jsTask, browserSyncReload)
   );
 }
 
 // Default Gulp Task
-exports.default = series(
-  scssTask,
-  jsTask,
-  browserSyncServe,
-  watchTask,
-  htmlTask
-);
+exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);

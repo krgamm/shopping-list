@@ -644,7 +644,7 @@ function sortCategories() {
       const checkmarkGroup = document.createElement("div");
       checkmarkGroup.setAttribute("class", "checkmark-group");
       const checkmarkIcon = document.createElement("img");
-      checkmarkIcon.src = "./app/assets/checkmark.svg";
+      checkmarkIcon.src = "/assets/checkmark.svg";
       checkmarkIcon.setAttribute("class", "checkmark-icon display-helper");
       const circle = document.createElement("div");
       circle.setAttribute("class", "circle");
@@ -655,7 +655,7 @@ function sortCategories() {
       const iconWrapper = document.createElement("div");
       iconWrapper.setAttribute("class", "icon-wrapper");
       const closeIcon = document.createElement("img");
-      closeIcon.src = "./app/assets/close.svg";
+      closeIcon.src = "/assets/close.svg";
       closeIcon.setAttribute("class", "close-icon");
       const itemContainer = document.createElement("div");
       itemContainer.setAttribute("class", "item");

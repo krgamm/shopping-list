@@ -5,6 +5,10 @@
   "keywords": [],
   "author": "Kevin Gammenthaler",
   "license": "ISC",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel src/index.html"
+  },
   "dependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
@@ -16,6 +20,7 @@
     "gulp-postcss": "^9.0.0",
     "gulp-sass": "^5.0.0",
     "gulp-terser": "^2.0.1",
+    "parcel": "^2.4.0",
     "postcss": "^8.3.5",
     "sass": "^1.35.2"
   },
