@@ -832,7 +832,7 @@ function clearCheckedItems() {
     let closeBtn = closeBtnEl.querySelector(".icon-wrapper");
     closeBtn.click();
     let itemIndex = userInventoryList.findIndex((item) => item.id == idEl);
-    userInventoryList.splice(itemIndex, 1);
+    userInventoryList.splice(itemIndex, 0);
   });
   selectedList = [];
   sortCategories();
